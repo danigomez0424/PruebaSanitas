@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="af7b6361-9c77-40f0-8849-94bdc7686837"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="CuentasMedicas_Sanitas">
+	</codegen>
+	<variables>
+		<var
+		id="d967e330-89af-4af1-b5f5-20ecdc1ef576"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="c0e063cc-fb19-48f6-a306-8f27c48b6e63">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="252f38fc-442d-4956-b6ff-f2c95665c4e7"
+	name="CuentasMedicas_SanitasRepository"
+	relativepath="CuentasMedicas_SanitasRepository.rxrep">
+		<codegen
+		classname="CuentasMedicas_SanitasRepository"
+		namespace="CuentasMedicas_Sanitas">
+		</codegen>
+		<rootfolder
+		id="fde6ab7f-276c-47f2-ae51-f84d2cd2116c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

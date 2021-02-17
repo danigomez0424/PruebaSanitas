@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="CuentasMedicas_Sanitas"
+      id="ffc20098-c7ef-4c4f-bacf-1dbb304c85e8"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="CuentasMedicas_Sanitas"
+      id="ffc20098-c7ef-4c4f-bacf-1dbb304c85e8"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

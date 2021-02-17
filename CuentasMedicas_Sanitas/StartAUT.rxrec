@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="db372c21-4ea0-4383-b71e-f022d5f41bb7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="CuentasMedicas_Sanitas">
+	</codegen>
+	<variables>
+		<var
+		id="e8e667c8-a215-47ac-a075-62f5ee5a463c"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Compartido\iqcmUltima\IQ.CuentasMedicas.exe
+			</filename>
+			<workingdir>
+				C:\Compartido\iqcmUltima
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="252f38fc-442d-4956-b6ff-f2c95665c4e7"
+	name="CuentasMedicas_SanitasRepository"
+	relativepath="CuentasMedicas_SanitasRepository.rxrep">
+		<codegen
+		classname="CuentasMedicas_SanitasRepository"
+		namespace="CuentasMedicas_Sanitas">
+		</codegen>
+		<rootfolder
+		id="fde6ab7f-276c-47f2-ae51-f84d2cd2116c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
